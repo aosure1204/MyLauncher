@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.Adapter<AllAppAdapter.ViewHolder> adapter = new AllAppAdapter(iconIds, titleStrs);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        mRecyclerView.setAdapter();
+        mRecyclerView.setAdapter(adapter);
     }
-
+    
     private int[] iconIds = {
             R.drawable.1,
             R.drawable.2,
