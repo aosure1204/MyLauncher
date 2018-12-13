@@ -1,0 +1,44 @@
+C:\Users\WeDesign>D:
+
+D:\>cd D:\AndroidStudioProjects\LauncherApplication
+
+D:\AndroidStudioProjects\LauncherApplication>ssh-keygen -t rsa -C "1026526473@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\WeDesign/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\WeDesign/.ssh/id_rsa.
+Your public key has been saved in C:\Users\WeDesign/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:gphK1mq+F0bMWeDxx3f0jrrX6ZgHNf79JAPekRUj7pQ 1026526473@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|   o.      . . o |
+|  . o..   . o o o|
+|  o.o. o . . E  .|
+|  .B .. . . =o o |
+| o+.. . S  .+o+  |
+|o..o   .  .o + . |
+|.o. .    .  + * o|
+|o  .      ..o+ =.|
+| oo      ..oo.  o|
++----[SHA256]-----+
+
+D:\AndroidStudioProjects\LauncherApplication>ssh -T git@github.com
+The authenticity of host 'github.com (52.74.223.119)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,52.74.223.119' (RSA) to the list of known hosts.
+ssh_dispatch_run_fatal: Connection to 52.74.223.119 port 22: Connection timed out
+
+D:\AndroidStudioProjects\LauncherApplication>
+D:\AndroidStudioProjects\LauncherApplication>ssh -T git@github.com
+Hi aosure1204! You've successfully authenticated, but GitHub does not provide shell access.
+
+D:\AndroidStudioProjects\LauncherApplication>git config --global user.name "isure"
+
+D:\AndroidStudioProjects\LauncherApplication>git config --global user.email "1026526473@qq.com"
+
+D:\AndroidStudioProjects\LauncherApplication>git remote add origin git@github.com:aosure1204/MyLauncher
+
+D:\AndroidStudioProjects\LauncherApplication>

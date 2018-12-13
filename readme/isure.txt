@@ -1,0 +1,4 @@
+本打算参考原生launcher3的AllApps界面用recyclerview呈现内容，但是遇到以下问题：recyclerview已经重写了onTouchEvent、scrollTo等方法，
+如果坚持用RecyclerView，那么无法在不影响RecyclerView功能的前提下实现自定义事件，例如滑动到下一屏。
+
+故参考原生launcher3的Workspace来实现。

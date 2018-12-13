@@ -8,7 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/one_scroll" />
+            <option value="$PROJECT_DIR$/one_recyclerview" />
+            <option value="$PROJECT_DIR$/two_workspace_scroll" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
