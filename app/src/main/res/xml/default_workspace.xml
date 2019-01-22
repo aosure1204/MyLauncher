@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workspace xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:largeIcon="@drawable/ic_system_settings"
+        launcher:smallIcon="@drawable/ic_system_settings_title"
+        launcher:title="@string/system_settings" />
+    <folder
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:largeIcon="@drawable/ic_online_apps"
+        launcher:smallIcon="@drawable/ic_online_apps_title"
+        launcher:title="@string/online_apps" >
+    </folder>
+    <favorite
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:largeIcon="@drawable/ic_driving_data"
+        launcher:smallIcon="@drawable/ic_driving_data_title"
+        launcher:title="@string/driving_data" />
+    <favorite
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:largeIcon="@drawable/ic_e_book"
+        launcher:smallIcon="@drawable/ic_e_book_title"
+        launcher:title="@string/e_book" />
+    <folder
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:largeIcon="@drawable/ic_common_tool"
+        launcher:smallIcon="@drawable/ic_common_tool_title"
+        launcher:title="@string/common_tool" >
+    </folder>
+    <favorite
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:largeIcon="@drawable/ic_traffic_assistance"
+        launcher:smallIcon="@drawable/ic_traffic_assistance_title"
+        launcher:title="@string/traffic_assistance" />
+    <favorite
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:largeIcon="@drawable/ic_weather"
+        launcher:smallIcon="@drawable/ic_weather_title"
+        launcher:title="@string/weather" />
+    <favorite
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3"
+        launcher:largeIcon="@drawable/ic_photos"
+        launcher:smallIcon="@drawable/ic_photos_title"
+        launcher:title="@string/photos" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:largeIcon="@drawable/ic_vehicle_control"
+        launcher:smallIcon="@drawable/ic_vehicle_control_title"
+        launcher:title="@string/vehicle_control" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:largeIcon="@drawable/ic_bluetooth_phone"
+        launcher:smallIcon="@drawable/ic_bluetooth_phone_title"
+        launcher:title="@string/bluetooth_phone" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:largeIcon="@drawable/ic_music"
+        launcher:smallIcon="@drawable/ic_music_title"
+        launcher:title="@string/music" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:smallIcon="@drawable/ic_mobile_internet_title"
+        launcher:title="@string/mobile_internet" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:largeIcon="@drawable/ic_air"
+        launcher:smallIcon="@drawable/ic_air_title"
+        launcher:title="@string/air" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:largeIcon="@drawable/ic_navigation_map"
+        launcher:smallIcon="@drawable/ic_navigation_map_title"
+        launcher:title="@string/navigation_map" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:largeIcon="@drawable/ic_radio"
+        launcher:smallIcon="@drawable/ic_radio_title"
+        launcher:title="@string/radio" />
+    <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3"
+        launcher:smallIcon="@drawable/ic_car_network_title"
+        launcher:title="@string/car_network" />
+</workspace>

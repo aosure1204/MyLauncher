@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- XML attributes used by default_workspace.xml -->
+    <declare-styleable name="Favorite">
+        <attr name="packageName" format="string" />
+        <attr name="className" format="string" />
+        <attr name="screen" format="integer" />
+        <attr name="x" format="integer" />
+        <attr name="y" format="integer" />
+        <attr name="largeIcon" format="reference" />
+        <attr name="smallIcon" format="reference" />
+        <attr name="title" format="string" />
+    </declare-styleable>
+</resources>

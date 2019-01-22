@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_width">244dp</dimen>
+    <dimen name="app_height">260dp</dimen>
+    <dimen name="app_margin_left">12dp</dimen>
+    <dimen name="app_margin_right">12dp</dimen>
+    <dimen name="app_margin_top">10dp</dimen>
+    <dimen name="app_margin_bottom">4dp</dimen>
+</resources>

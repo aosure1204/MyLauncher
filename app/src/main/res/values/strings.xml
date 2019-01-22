@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WedesignLauncher</string>
+
+<!-- workspace apps name -->
+    <string name="system_settings">系统设置</string>
+    <string name="online_apps">在线应用</string>
+    <string name="driving_data">行驶数据</string>
+    <string name="e_book">电子书</string>
+    <string name="common_tool">常用工具</string>
+    <string name="traffic_assistance">行车辅助</string>
+    <string name="weather">天气</string>
+    <string name="photos">相册</string>
+    <string name="vehicle_control">整车控制</string>
+    <string name="bluetooth_phone">蓝牙电话</string>
+    <string name="music">音乐</string>
+    <string name="mobile_internet">手机互联</string>
+    <string name="air">空调</string>
+    <string name="navigation_map">导航</string>
+    <string name="radio">收音机</string>
+    <string name="car_network">车联网</string>
+</resources>
